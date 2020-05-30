@@ -19,7 +19,7 @@ public class WebConfiguration extends WebMvcConfigurerAdapter {
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/images/**")
-		.addResourceLocations("file:" + resourcePath + "/Favicon.png")
-		.addResourceLocations("file:" + resourcePath + "/Logo.png");
+		.addResourceLocations("file:" + resourcePath + "/favicon.png")
+		.addResourceLocations("file:" + resourcePath + "/logo.png");
 	}
 }
